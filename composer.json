@@ -1,0 +1,29 @@
+{
+    "name": "wenshizhengxin/message_pot",
+    "description": "epii-admin框架 消息通知工具",
+    "type": "library",
+    "authors": [
+        {
+            "name": "Temple Chan",
+            "email": "1421224516@qq.com"
+        }
+    ],
+    "license": "MIT",
+    "require": {
+        "php": ">=7.0.0",
+        "epii/admin-center": ">=0.0.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "wenshizhengxin\\message_pot\\": "src/"
+        }
+    },
+    "extra": {
+        "epii_admin_addons": {
+            "app": "wenshizhengxin\\message_pot\\App",
+            "title": "文始消息通知插件",
+            "version": "0.0.1",
+            "base_name_space": "wenshizhengxin\\message_pot\\app"
+        }
+    }
+}
