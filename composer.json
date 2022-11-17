@@ -1,6 +1,6 @@
 {
     "name": "wenshizhengxin/message_pot",
-    "description": "epii-admin框架 消息通知工具",
+    "description": "epii-admin框架 消息通知插件",
     "type": "library",
     "authors": [
         {

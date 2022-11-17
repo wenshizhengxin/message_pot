@@ -1,1 +1,1 @@
-# epii-admin框架 消息通知工具
+# epii-admin框架 消息通知插件
