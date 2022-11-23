@@ -4,8 +4,7 @@ SET FOREIGN_KEY_CHECKS = 0;
 -- ----------------------------
 -- Table structure for epii_message
 -- ----------------------------
-DROP TABLE IF EXISTS `epii_message`;
-CREATE TABLE `epii_message`  (
+CREATE TABLE IF NOT EXISTS `epii_message` (
   `id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT COMMENT '消息通知表主键id',
   `message_type` int(10) UNSIGNED NOT NULL DEFAULT 0 COMMENT '消息类型',
   `text` varchar(128) CHARACTER SET utf8 COLLATE utf8_general_ci NOT NULL DEFAULT '' COMMENT '通知文本',
